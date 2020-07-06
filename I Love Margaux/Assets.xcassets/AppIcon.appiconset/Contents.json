@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "Photo on 6-7-20 at 13.24.jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "Photo on 6-7-20 at 13.24-1.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -71,16 +73,19 @@
       "size" : "40x40"
     },
     {
+      "filename" : "Photo on 6-7-20 at 13.24-2.jpg",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
+      "filename" : "Photo on 6-7-20 at 13.24-3.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "Photo on 6-7-20 at 13.24-4.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"

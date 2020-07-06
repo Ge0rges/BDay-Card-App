@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Love Margaux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCDA04A24B2B31D00AC621B /* Ta Carte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ta Carte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCDA04D24B2B31D00AC621B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBCDA04F24B2B31D00AC621B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBCDA05124B2B31D00AC621B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FBCDA04B24B2B31D00AC621B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */,
+				FBCDA04A24B2B31D00AC621B /* Ta Carte.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "I Love Margaux";
 			productName = "I Love Margaux";
-			productReference = FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */;
+			productReference = FBCDA04A24B2B31D00AC621B /* Ta Carte.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,12 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X427N69BRP;
 				INFOPLIST_FILE = "I Love Margaux/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ge0rges.I-Love-Margaux";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ta Carte";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +306,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X427N69BRP;
 				INFOPLIST_FILE = "I Love Margaux/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ge0rges.I-Love-Margaux";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ta Carte";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
