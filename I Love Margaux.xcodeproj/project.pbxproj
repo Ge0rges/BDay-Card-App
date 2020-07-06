@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBCDA04E24B2B31D00AC621B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDA04D24B2B31D00AC621B /* AppDelegate.swift */; };
+		FBCDA05024B2B31D00AC621B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDA04F24B2B31D00AC621B /* SceneDelegate.swift */; };
+		FBCDA05224B2B31D00AC621B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDA05124B2B31D00AC621B /* ViewController.swift */; };
+		FBCDA05524B2B31D00AC621B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCDA05324B2B31D00AC621B /* Main.storyboard */; };
+		FBCDA05724B2B31F00AC621B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCDA05624B2B31F00AC621B /* Assets.xcassets */; };
+		FBCDA05A24B2B31F00AC621B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCDA05824B2B31F00AC621B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Love Margaux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCDA04D24B2B31D00AC621B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBCDA04F24B2B31D00AC621B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBCDA05124B2B31D00AC621B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBCDA05424B2B31D00AC621B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBCDA05624B2B31F00AC621B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBCDA05924B2B31F00AC621B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBCDA05B24B2B31F00AC621B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCDA04724B2B31D00AC621B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBCDA04124B2B31D00AC621B = {
+			isa = PBXGroup;
+			children = (
+				FBCDA04C24B2B31D00AC621B /* I Love Margaux */,
+				FBCDA04B24B2B31D00AC621B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCDA04B24B2B31D00AC621B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCDA04C24B2B31D00AC621B /* I Love Margaux */ = {
+			isa = PBXGroup;
+			children = (
+				FBCDA04D24B2B31D00AC621B /* AppDelegate.swift */,
+				FBCDA04F24B2B31D00AC621B /* SceneDelegate.swift */,
+				FBCDA05124B2B31D00AC621B /* ViewController.swift */,
+				FBCDA05324B2B31D00AC621B /* Main.storyboard */,
+				FBCDA05624B2B31F00AC621B /* Assets.xcassets */,
+				FBCDA05824B2B31F00AC621B /* LaunchScreen.storyboard */,
+				FBCDA05B24B2B31F00AC621B /* Info.plist */,
+			);
+			path = "I Love Margaux";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCDA04924B2B31D00AC621B /* I Love Margaux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCDA05E24B2B31F00AC621B /* Build configuration list for PBXNativeTarget "I Love Margaux" */;
+			buildPhases = (
+				FBCDA04624B2B31D00AC621B /* Sources */,
+				FBCDA04724B2B31D00AC621B /* Frameworks */,
+				FBCDA04824B2B31D00AC621B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I Love Margaux";
+			productName = "I Love Margaux";
+			productReference = FBCDA04A24B2B31D00AC621B /* I Love Margaux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCDA04224B2B31D00AC621B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Georges Kanaan";
+				TargetAttributes = {
+					FBCDA04924B2B31D00AC621B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FBCDA04524B2B31D00AC621B /* Build configuration list for PBXProject "I Love Margaux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCDA04124B2B31D00AC621B;
+			productRefGroup = FBCDA04B24B2B31D00AC621B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCDA04924B2B31D00AC621B /* I Love Margaux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCDA04824B2B31D00AC621B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCDA05A24B2B31F00AC621B /* LaunchScreen.storyboard in Resources */,
+				FBCDA05724B2B31F00AC621B /* Assets.xcassets in Resources */,
+				FBCDA05524B2B31D00AC621B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCDA04624B2B31D00AC621B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCDA05224B2B31D00AC621B /* ViewController.swift in Sources */,
+				FBCDA04E24B2B31D00AC621B /* AppDelegate.swift in Sources */,
+				FBCDA05024B2B31D00AC621B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBCDA05324B2B31D00AC621B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCDA05424B2B31D00AC621B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCDA05824B2B31F00AC621B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCDA05924B2B31F00AC621B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCDA05C24B2B31F00AC621B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBCDA05D24B2B31F00AC621B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCDA05F24B2B31F00AC621B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X427N69BRP;
+				INFOPLIST_FILE = "I Love Margaux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ge0rges.I-Love-Margaux";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBCDA06024B2B31F00AC621B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X427N69BRP;
+				INFOPLIST_FILE = "I Love Margaux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ge0rges.I-Love-Margaux";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCDA04524B2B31D00AC621B /* Build configuration list for PBXProject "I Love Margaux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCDA05C24B2B31F00AC621B /* Debug */,
+				FBCDA05D24B2B31F00AC621B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCDA05E24B2B31F00AC621B /* Build configuration list for PBXNativeTarget "I Love Margaux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCDA05F24B2B31F00AC621B /* Debug */,
+				FBCDA06024B2B31F00AC621B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBCDA04224B2B31D00AC621B /* Project object */;
+}
